@@ -10,8 +10,6 @@ from langchain.llms import OpenAI
 from langchain.callbacks import get_openai_callback
 
 def main():
-    print("rendering.....")
-
     # load environment variable from .env
     load_dotenv()
     # retrieve openai_api_key
